@@ -42,11 +42,11 @@ Consider incorporating additional external data if available, which might provid
 9. Hyperparameter Tuning
    1. Experiment with different hyperparameters, such as learning rate, batch size, number of epochs, and LSTM architecture parameters, to find the optimal combination that yields the best performance.
 10. Prediction and Interpretation:
-   1. Once the LSTM model is trained and evaluated, use it to make predictions on new, unseen data.
-   2. Analyze the predictions and identify patterns or anomalies that could indicate potential failures or issues on the tractor engine assembly line.
-   3. Interpret the model's outputs and insights to make informed decisions for preventive maintenance or process improvements.
+    1. Once the LSTM model is trained and evaluated, use it to make predictions on new, unseen data.
+    2. Analyze the predictions and identify patterns or anomalies that could indicate potential failures or issues on the tractor engine assembly line.
+    3. Interpret the model's outputs and insights to make informed decisions for preventive maintenance or process improvements.
 11. Iterative Refinement
-   1. Based on the performance of the LSTM model, iterate and fine-tune the preprocessing, feature engineering, and model architecture to improve prediction accuracy.
+    1. Based on the performance of the LSTM model, iterate and fine-tune the preprocessing, feature engineering, and model architecture to improve prediction accuracy.
 ### LSTM (Long Short Term Memory) - 
 Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) architecture designed to handle sequential data. Unlike traditional RNNs, LSTM networks are explicitly designed to overcome the vanishing gradient problem, allowing them to effectively capture long-range dependencies in sequential data. LSTM has gained significant popularity in various applications, including natural language processing, time series analysis, speech recognition, and more. In our research, we propose utilizing LSTM to create a predictive model for anticipating problems in the tractor engine assembly line at Mahindra & Mahindra.
 ### Conclusion - 
