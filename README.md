@@ -20,10 +20,10 @@ The Dataset contains about 87,000 rows and involves the assembly line failure da
    3. Convert date and time columns into appropriate formats, such as datetime objects, to facilitate time-based analysis.
    4. Encode categorical variables: If there are categorical attributes, convert them into numerical representations using techniques like one-hot encoding or label encoding.
 2. Feature Engineering
-  1. Extract relevant features from the existing attributes that could be useful for prediction. For example, you could create new features like "Time of Day" or "Day of the Week" from the timestamp data.
+   1. Extract relevant features from the existing attributes that could be useful for prediction. For example, you could create new features like "Time of Day" or "Day of the Week" from the timestamp data.
 Consider incorporating additional external data if available, which might provide valuable insights into the tractor engine assembly process and potential causes of failures.
 3. Data Splitting
-  1. Split the dataset into training and testing sets. The training set will be used to train the LSTM model, while the testing set will be used to evaluate its performance.
+   1. Split the dataset into training and testing sets. The training set will be used to train the LSTM model, while the testing set will be used to evaluate its performance.
 4. Sequence Preparation
    1. Since LSTM is designed to work with sequential data, we need to convert our dataset into sequences. Each sequence will represent a specific time window or period, and the LSTM model will learn patterns within these sequences to make predictions.
    2. Decide on the sequence length, which will determine the number of time steps the LSTM will consider as input to predict the next event.
