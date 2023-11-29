@@ -28,25 +28,25 @@ Consider incorporating additional external data if available, which might provid
    1. Since LSTM is designed to work with sequential data, we need to convert our dataset into sequences. Each sequence will represent a specific time window or period, and the LSTM model will learn patterns within these sequences to make predictions.
    2. Decide on the sequence length, which will determine the number of time steps the LSTM will consider as input to predict the next event.
 5. Scaling
-  1. Scale the numerical features to a similar range, typically between 0 and 1, using techniques like Min-Max scaling or Standard scaling. This helps in faster convergence and better performance of the LSTM.
+   1. Scale the numerical features to a similar range, typically between 0 and 1, using techniques like Min-Max scaling or Standard scaling. This helps in faster convergence and better performance of the LSTM.
 6. Model Architecture
-  1. Design the LSTM architecture. Typically, an LSTM model will have one or more LSTM layers followed by fully connected (dense) layers for prediction.
-  2. Experiment with the number of LSTM units and hidden layers to find an optimal architecture. You can also use regularization techniques to prevent overfitting, such as dropout layers.
+   1. Design the LSTM architecture. Typically, an LSTM model will have one or more LSTM layers followed by fully connected (dense) layers for prediction.
+   2. Experiment with the number of LSTM units and hidden layers to find an optimal architecture. You can also use regularization techniques to prevent overfitting, such as dropout layers.
 7. Model Training
-  1. Train the LSTM model on the training dataset. Use appropriate loss functions and optimization algorithms (e.g., Mean Squared Error loss, Adam optimizer) for the task at hand.
-  2. Use a batch size suitable for the dataset and the available computational resources.
-  3. Monitor the training process to ensure that the model is not overfitting on the training data.
+   1. Train the LSTM model on the training dataset. Use appropriate loss functions and optimization algorithms (e.g., Mean Squared Error loss, Adam optimizer) for the task at hand.
+   2. Use a batch size suitable for the dataset and the available computational resources.
+   3. Monitor the training process to ensure that the model is not overfitting on the training data.
 8. Model Evaluation
-  1. Evaluate the trained LSTM model on the testing dataset to assess its predictive performance.
-  2. Calculate relevant evaluation metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), or any other domain-specific metric that aligns with the problem statement.
+   1. Evaluate the trained LSTM model on the testing dataset to assess its predictive performance.
+   2. Calculate relevant evaluation metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), or any other domain-specific metric that aligns with the problem statement.
 9. Hyperparameter Tuning
-  1. Experiment with different hyperparameters, such as learning rate, batch size, number of epochs, and LSTM architecture parameters, to find the optimal combination that yields the best performance.
+   1. Experiment with different hyperparameters, such as learning rate, batch size, number of epochs, and LSTM architecture parameters, to find the optimal combination that yields the best performance.
 10. Prediction and Interpretation:
-  1. Once the LSTM model is trained and evaluated, use it to make predictions on new, unseen data.
-  2. Analyze the predictions and identify patterns or anomalies that could indicate potential failures or issues on the tractor engine assembly line.
-  3. Interpret the model's outputs and insights to make informed decisions for preventive maintenance or process improvements.
+   1. Once the LSTM model is trained and evaluated, use it to make predictions on new, unseen data.
+   2. Analyze the predictions and identify patterns or anomalies that could indicate potential failures or issues on the tractor engine assembly line.
+   3. Interpret the model's outputs and insights to make informed decisions for preventive maintenance or process improvements.
 11. Iterative Refinement
-  1. Based on the performance of the LSTM model, iterate and fine-tune the preprocessing, feature engineering, and model architecture to improve prediction accuracy.
+   1. Based on the performance of the LSTM model, iterate and fine-tune the preprocessing, feature engineering, and model architecture to improve prediction accuracy.
 ### LSTM (Long Short Term Memory) - 
 Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) architecture designed to handle sequential data. Unlike traditional RNNs, LSTM networks are explicitly designed to overcome the vanishing gradient problem, allowing them to effectively capture long-range dependencies in sequential data. LSTM has gained significant popularity in various applications, including natural language processing, time series analysis, speech recognition, and more. In our research, we propose utilizing LSTM to create a predictive model for anticipating problems in the tractor engine assembly line at Mahindra & Mahindra.
 ### Conclusion - 
